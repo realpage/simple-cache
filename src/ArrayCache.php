@@ -4,7 +4,7 @@ namespace Realpage\SimpleCache;
 
 use Traversable;
 use InvalidArgumentException;
-use Psr\Simplecache\CacheInterface;
+use Psr\SimpleCache\CacheInterface;
 use Realpage\SimpleCache\KeyValidation;
 
 class ArrayCache implements CacheInterface
